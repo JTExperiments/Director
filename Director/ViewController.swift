@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var slideInDirector: SlideInFromLeftDirector!
+    @IBOutlet var dropOutDirector: DropOutDirector!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +23,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func startButtonDidPress(sender: AnyObject) {
+        self.slideInDirector.start()
+    }
+
+    @IBAction func dropButtonDidPress(sender: AnyObject) {
+        self.dropOutDirector.start()
+    }
 
 }
 

@@ -13,6 +13,9 @@
 		1A9A162E1A6BB2D20061F230 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A162D1A6BB2D20061F230 /* Images.xcassets */; };
 		1A9A16311A6BB2D20061F230 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A162F1A6BB2D20061F230 /* LaunchScreen.xib */; };
 		1A9A163D1A6BB2D20061F230 /* DirectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A163C1A6BB2D20061F230 /* DirectorTests.swift */; };
+		1A9A16471A6BB3160061F230 /* SlideInFromLeftDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A16461A6BB3160061F230 /* SlideInFromLeftDirector.swift */; };
+		1A9A16491A6BB3290061F230 /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A16481A6BB3290061F230 /* Director.swift */; };
+		1A9A164B1A6BBA8F0061F230 /* DropOutDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A164A1A6BBA8F0061F230 /* DropOutDirector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		1A9A16361A6BB2D20061F230 /* DirectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9A163B1A6BB2D20061F230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A9A163C1A6BB2D20061F230 /* DirectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectorTests.swift; sourceTree = "<group>"; };
+		1A9A16461A6BB3160061F230 /* SlideInFromLeftDirector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInFromLeftDirector.swift; sourceTree = "<group>"; };
+		1A9A16481A6BB3290061F230 /* Director.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
+		1A9A164A1A6BBA8F0061F230 /* DropOutDirector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropOutDirector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		1A9A16231A6BB2D20061F230 /* Director */ = {
 			isa = PBXGroup;
 			children = (
+				1A9A16481A6BB3290061F230 /* Director.swift */,
+				1A9A16461A6BB3160061F230 /* SlideInFromLeftDirector.swift */,
+				1A9A164A1A6BBA8F0061F230 /* DropOutDirector.swift */,
 				1A9A16261A6BB2D20061F230 /* AppDelegate.swift */,
 				1A9A16281A6BB2D20061F230 /* ViewController.swift */,
 				1A9A162A1A6BB2D20061F230 /* Main.storyboard */,
@@ -213,7 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A9A16291A6BB2D20061F230 /* ViewController.swift in Sources */,
+				1A9A16491A6BB3290061F230 /* Director.swift in Sources */,
+				1A9A164B1A6BBA8F0061F230 /* DropOutDirector.swift in Sources */,
 				1A9A16271A6BB2D20061F230 /* AppDelegate.swift in Sources */,
+				1A9A16471A6BB3160061F230 /* SlideInFromLeftDirector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
