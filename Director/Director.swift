@@ -10,19 +10,18 @@ import UIKit
 
 class Director: NSObject {
 
-    @IBOutlet var views : [UIView] = [UIView]()
-    @IBOutlet var directors : [Director] = [Director]()
-
     @IBInspectable var autoStart : Bool = false
-
-    override func awakeFromNib() {
-        if self.autoStart {
-            self.start()
+    @IBOutlet var views : [UIView] = [UIView]() {
+        didSet {
+            if self.autoStart {
+                self.start()
+            }
         }
     }
 
+    @IBOutlet var directors : [Director] = [Director]()
+
     func start() {
-        
     }
 
     internal func complete() {

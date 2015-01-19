@@ -18,9 +18,8 @@ class SlideInFromLeftDirector: Director {
 
     override func start() {
 
-        let translate = CGAffineTransformMakeTranslation(-300, 0)
         for view in self.views {
-            view.transform = translate
+            view.transform = CGAffineTransformMakeTranslation(-CGRectGetMaxX(view.frame), 0)
         }
 
         UIView.animateWithDuration( NSTimeInterval(duration),

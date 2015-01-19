@@ -48,7 +48,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <customObject id="Fe2-zA-2cb" customClass="SlideInFromLeftDirector" customModule="Director" customModuleProvider="target">
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="autoStart" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="autoStart" value="YES"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outletCollection property="views" destination="sqK-Kt-Yth" collectionClass="NSMutableArray" id="vkP-4r-BkR"/>
